@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0EL-40-K8U" customClass="ShopCarFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5I-Cl-kbh" customClass="DYLineView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.85882352939999995" green="0.85882352939999995" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="PMc-UU-bam"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="合计：" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxY-aM-Ixo">
+                    <rect key="frame" x="13" y="17" width="43" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.22352941179999999" green="0.22352941179999999" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥0" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpJ-Qz-Er7" customClass="DYMainLabel">
+                    <rect key="frame" x="64" y="16" width="20" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="1" green="0.1764705882" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（不含运费）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lea-h0-cuw">
+                    <rect key="frame" x="84" y="20" width="80" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.60392156860000001" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aU-wm-dxV">
+                    <rect key="frame" x="234" y="8" width="73" height="35"/>
+                    <color key="backgroundColor" red="1" green="0.1764705882" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="5pe-yv-kZP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                    <state key="normal" title="去结算">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274509803926" green="0.96078431372549022" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Lea-h0-cuw" firstAttribute="bottom" secondItem="fpJ-Qz-Er7" secondAttribute="bottom" id="Fuv-9b-tdB"/>
+                <constraint firstItem="Lea-h0-cuw" firstAttribute="bottom" secondItem="fpJ-Qz-Er7" secondAttribute="bottom" id="Fxq-dP-VIb"/>
+                <constraint firstItem="Lea-h0-cuw" firstAttribute="bottom" secondItem="fpJ-Qz-Er7" secondAttribute="bottom" id="NTR-VS-j07"/>
+                <constraint firstItem="fpJ-Qz-Er7" firstAttribute="bottom" secondItem="wxY-aM-Ixo" secondAttribute="bottom" id="Pg6-ci-ZbI"/>
+                <constraint firstItem="5aU-wm-dxV" firstAttribute="centerY" secondItem="0EL-40-K8U" secondAttribute="centerY" id="g8y-W1-wUf"/>
+                <constraint firstItem="wxY-aM-Ixo" firstAttribute="centerY" secondItem="0EL-40-K8U" secondAttribute="centerY" id="go2-hY-g7d"/>
+                <constraint firstItem="fpJ-Qz-Er7" firstAttribute="centerY" secondItem="wxY-aM-Ixo" secondAttribute="centerY" id="h33-pS-jh9"/>
+                <constraint firstItem="y5I-Cl-kbh" firstAttribute="leading" secondItem="0EL-40-K8U" secondAttribute="leading" id="nrl-Lf-bLU"/>
+                <constraint firstItem="fpJ-Qz-Er7" firstAttribute="leading" secondItem="wxY-aM-Ixo" secondAttribute="trailing" constant="8" id="tmE-D9-pkA"/>
+                <constraint firstItem="wxY-aM-Ixo" firstAttribute="leading" secondItem="0EL-40-K8U" secondAttribute="leading" constant="13" id="vc6-Zf-DfR"/>
+                <constraint firstItem="y5I-Cl-kbh" firstAttribute="top" secondItem="0EL-40-K8U" secondAttribute="top" id="wW9-fR-eh0"/>
+                <constraint firstAttribute="trailing" secondItem="5aU-wm-dxV" secondAttribute="trailing" constant="13" id="xM2-Gy-cpc"/>
+                <constraint firstAttribute="trailing" secondItem="y5I-Cl-kbh" secondAttribute="trailing" id="yZq-jM-Fki"/>
+                <constraint firstItem="Lea-h0-cuw" firstAttribute="leading" secondItem="fpJ-Qz-Er7" secondAttribute="trailing" id="zsj-87-JVV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Pg6-ci-ZbI"/>
+                    <exclude reference="Fxq-dP-VIb"/>
+                    <exclude reference="NTR-VS-j07"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="mJieSuan" destination="5aU-wm-dxV" id="S4u-aB-ACq"/>
+                <outlet property="mPrice" destination="fpJ-Qz-Er7" id="2kd-iJ-JN2"/>
+                <outlet property="mYunFei" destination="Lea-h0-cuw" id="Rob-ad-CqF"/>
+            </connections>
+            <point key="canvasLocation" x="249" y="334"/>
+        </view>
+    </objects>
+</document>

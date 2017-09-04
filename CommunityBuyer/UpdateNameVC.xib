@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpdateNameVC">
+            <connections>
+                <outlet property="mName" destination="wg3-Mg-Fhj" id="VMt-cr-551"/>
+                <outlet property="mSubmitBT" destination="P2Y-uq-V6V" id="bvQ-N1-uWa"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入呢称" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wg3-Mg-Fhj">
+                    <rect key="frame" x="15" y="80" width="345" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="URS-KF-dyg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="呢称长度为2-20个字符" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMa-fn-yS3">
+                    <rect key="frame" x="15" y="128" width="345" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2Y-uq-V6V">
+                    <rect key="frame" x="15" y="159" width="345" height="40"/>
+                    <color key="backgroundColor" red="0.97647058819999999" green="0.023529411760000001" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="E0T-mG-et7"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mSubmitClick:" destination="-1" eventType="touchUpInside" id="eRv-EC-SHl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wg3-Mg-Fhj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="3EW-ki-RgN"/>
+                <constraint firstItem="LMa-fn-yS3" firstAttribute="top" secondItem="wg3-Mg-Fhj" secondAttribute="bottom" constant="8" id="66V-DL-6J0"/>
+                <constraint firstAttribute="trailing" secondItem="wg3-Mg-Fhj" secondAttribute="trailing" constant="15" id="69X-6w-diE"/>
+                <constraint firstItem="LMa-fn-yS3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Bcb-Gd-zbQ"/>
+                <constraint firstAttribute="trailing" secondItem="P2Y-uq-V6V" secondAttribute="trailing" constant="15" id="Dcx-PM-xG6"/>
+                <constraint firstItem="wg3-Mg-Fhj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="DsS-pe-EXP"/>
+                <constraint firstItem="P2Y-uq-V6V" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="a3s-DK-fcQ"/>
+                <constraint firstItem="P2Y-uq-V6V" firstAttribute="top" secondItem="LMa-fn-yS3" secondAttribute="bottom" constant="15" id="exB-Fz-FOa"/>
+                <constraint firstAttribute="trailing" secondItem="LMa-fn-yS3" secondAttribute="trailing" constant="15" id="hoS-fu-GVR"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>

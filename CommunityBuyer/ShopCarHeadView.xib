@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tN3-EZ-oea" customClass="ShopCarHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wwq-Hz-ArY">
+                    <rect key="frame" x="0.0" y="8" width="320" height="50"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pi2-W4-i6I">
+                    <rect key="frame" x="8" y="15" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="1Hl-aw-Lt8"/>
+                        <constraint firstAttribute="height" constant="35" id="Ote-ww-lcs"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                    <state key="normal" image="quan"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shangjia" translatesAutoresizingMaskIntoConstraints="NO" id="kGx-jx-aYD">
+                    <rect key="frame" x="51" y="24" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="YGD-NP-AkV"/>
+                        <constraint firstAttribute="height" constant="17" id="cY6-aS-Brw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家乐福（宝龙城市广场）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFK-fb-Tfq">
+                    <rect key="frame" x="76" y="24" width="157.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.22352941179999999" green="0.22352941179999999" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqd-Fv-EcM">
+                    <rect key="frame" x="68" y="0.0" width="252" height="58"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.8784313725490196" green="0.88235294117647056" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fqd-Fv-EcM" secondAttribute="bottom" id="1yx-C9-KP1"/>
+                <constraint firstAttribute="trailing" secondItem="Wwq-Hz-ArY" secondAttribute="trailing" id="DYH-xI-ZaJ"/>
+                <constraint firstItem="Wwq-Hz-ArY" firstAttribute="leading" secondItem="tN3-EZ-oea" secondAttribute="leading" id="F9M-B6-bKw"/>
+                <constraint firstAttribute="trailing" secondItem="fqd-Fv-EcM" secondAttribute="trailing" id="Hbz-rl-cd1"/>
+                <constraint firstItem="Wwq-Hz-ArY" firstAttribute="top" secondItem="tN3-EZ-oea" secondAttribute="top" constant="8" id="NWY-bn-c3c"/>
+                <constraint firstItem="fqd-Fv-EcM" firstAttribute="leading" secondItem="kGx-jx-aYD" secondAttribute="trailing" id="Quo-iH-Hw4"/>
+                <constraint firstItem="kGx-jx-aYD" firstAttribute="centerY" secondItem="Pi2-W4-i6I" secondAttribute="centerY" id="U1i-v9-6Ag"/>
+                <constraint firstAttribute="bottom" secondItem="Wwq-Hz-ArY" secondAttribute="bottom" id="XUt-Ny-WbC"/>
+                <constraint firstItem="Pi2-W4-i6I" firstAttribute="leading" secondItem="tN3-EZ-oea" secondAttribute="leading" constant="8" id="bch-SF-g8c"/>
+                <constraint firstItem="kGx-jx-aYD" firstAttribute="leading" secondItem="Pi2-W4-i6I" secondAttribute="trailing" constant="8" id="hjC-WZ-lfw"/>
+                <constraint firstItem="gFK-fb-Tfq" firstAttribute="top" secondItem="kGx-jx-aYD" secondAttribute="top" id="iIK-qu-OhO"/>
+                <constraint firstItem="gFK-fb-Tfq" firstAttribute="leading" secondItem="kGx-jx-aYD" secondAttribute="trailing" constant="8" id="k4l-YX-ygb"/>
+                <constraint firstItem="Pi2-W4-i6I" firstAttribute="centerY" secondItem="Wwq-Hz-ArY" secondAttribute="centerY" id="kXO-qi-J6h"/>
+                <constraint firstItem="fqd-Fv-EcM" firstAttribute="top" secondItem="tN3-EZ-oea" secondAttribute="top" id="yyD-Cq-IoW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mCheck" destination="Pi2-W4-i6I" id="ePo-bT-sbW"/>
+                <outlet property="mName" destination="gFK-fb-Tfq" id="IwG-SS-kwP"/>
+                <outlet property="mbt" destination="fqd-Fv-EcM" id="ayD-Iw-1ev"/>
+            </connections>
+            <point key="canvasLocation" x="210" y="346"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="quan" width="25" height="25"/>
+        <image name="shangjia" width="17" height="17"/>
+    </resources>
+</document>
