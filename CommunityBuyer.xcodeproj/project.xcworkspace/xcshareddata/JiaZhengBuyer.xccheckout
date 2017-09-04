@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B4B71D46-6F2A-4650-98E6-2635449281C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9E9B2A7A306A89D43B9581B5BC8A3879C2AE9514</key>
+		<string>http://192.168.1.189:5000/YiZanO2O/O2O_JiaZheng_Buyer_IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JiaZhengBuyer/JiaZhengBuyer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9E9B2A7A306A89D43B9581B5BC8A3879C2AE9514</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.1.189:5000/YiZanO2O/O2O_JiaZheng_Buyer_IOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9E9B2A7A306A89D43B9581B5BC8A3879C2AE9514</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E9B2A7A306A89D43B9581B5BC8A3879C2AE9514</string>
+			<key>IDESourceControlWCCName</key>
+			<string>O2O_JiaZheng_Buyer_IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
