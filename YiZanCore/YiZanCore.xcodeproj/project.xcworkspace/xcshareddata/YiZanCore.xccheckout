@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A97254E7-5AEE-4866-B8D7-B7ED9EC27729</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YiZanCore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D8E193DBF6C48DCC0CD4A1118D8BF62BB6F7EE50</key>
+		<string>http://192.168.1.189:5000/YiZanO2O/YiZanService</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YiZanService/YiZanCore/YiZanCore.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D8E193DBF6C48DCC0CD4A1118D8BF62BB6F7EE50</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.1.189:5000/YiZanO2O/YiZanService</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D8E193DBF6C48DCC0CD4A1118D8BF62BB6F7EE50</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D8E193DBF6C48DCC0CD4A1118D8BF62BB6F7EE50</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YiZanService</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168701F01B29648E00A46766 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 168701EB1B29648E00A46766 /* APIClient.m */; };
+		168701F11B29648E00A46766 /* CBCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 168701EC1B29648E00A46766 /* CBCUtil.m */; };
+		168701F21B29648E00A46766 /* dateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 168701ED1B29648E00A46766 /* dateModel.m */; };
+		168701F31B29648E00A46766 /* NSObject+myobj.m in Sources */ = {isa = PBXBuildFile; fileRef = 168701EE1B29648E00A46766 /* NSObject+myobj.m */; };
+		168701F41B29648E00A46766 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 168701EF1B29648E00A46766 /* Util.m */; };
+		16AC2EE51BF5B09200AA8CDE /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EA91BF5B09200AA8CDE /* AFAppDotNetAPIClient.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EE61BF5B09200AA8CDE /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EAB1BF5B09200AA8CDE /* AFHTTPRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EE71BF5B09200AA8CDE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EAD1BF5B09200AA8CDE /* AFHTTPRequestOperationManager.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EE81BF5B09200AA8CDE /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EAF1BF5B09200AA8CDE /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EE91BF5B09200AA8CDE /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EB21BF5B09200AA8CDE /* AFNetworkReachabilityManager.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EEA1BF5B09200AA8CDE /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EB41BF5B09200AA8CDE /* AFSecurityPolicy.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EEB1BF5B09200AA8CDE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EB61BF5B09200AA8CDE /* AFURLConnectionOperation.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EEC1BF5B09200AA8CDE /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EB81BF5B09200AA8CDE /* AFURLRequestSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EED1BF5B09200AA8CDE /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EBA1BF5B09200AA8CDE /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EEE1BF5B09200AA8CDE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EBC1BF5B09200AA8CDE /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EEF1BF5B09200AA8CDE /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2EBF1BF5B09200AA8CDE /* AlipaySDK.framework */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF01BF5B09200AA8CDE /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2EC01BF5B09200AA8CDE /* libcrypto.a */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF11BF5B09200AA8CDE /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2EC11BF5B09200AA8CDE /* libssl.a */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF21BF5B09200AA8CDE /* libPushSDK-1.8.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2EC41BF5B09200AA8CDE /* libPushSDK-1.8.5.a */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF31BF5B09200AA8CDE /* libOSS_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2EC61BF5B09200AA8CDE /* libOSS_IOS_SDK.a */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF41BF5B09200AA8CDE /* QMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2ED41BF5B09200AA8CDE /* QMapKit.framework */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF51BF5B09200AA8CDE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2ED71BF5B09200AA8CDE /* README.md */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF61BF5B09200AA8CDE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AC2EDB1BF5B09200AA8CDE /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		16AC2EF81BF5B09200AA8CDE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AC2EE11BF5B09200AA8CDE /* libWeChatSDK.a */; settings = {ASSET_TAGS = (); }; };
+		16FBE2CE1B2860D0000E23C3 /* YiZanCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16FBE2CD1B2860D0000E23C3 /* YiZanCore.h */; };
+		16FBE2D01B2860D0000E23C3 /* YiZanCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FBE2CF1B2860D0000E23C3 /* YiZanCore.m */; };
+		16FBE2D61B2860D0000E23C3 /* libYiZanCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FBE2CA1B2860D0000E23C3 /* libYiZanCore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16FBE2D71B2860D0000E23C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16FBE2C21B2860D0000E23C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16FBE2C91B2860D0000E23C3;
+			remoteInfo = YiZanCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16FBE2C81B2860D0000E23C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				16FBE2CE1B2860D0000E23C3 /* YiZanCore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		168701EB1B29648E00A46766 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		168701EC1B29648E00A46766 /* CBCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCUtil.m; sourceTree = "<group>"; };
+		168701ED1B29648E00A46766 /* dateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateModel.m; sourceTree = "<group>"; };
+		168701EE1B29648E00A46766 /* NSObject+myobj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+myobj.m"; sourceTree = "<group>"; };
+		168701EF1B29648E00A46766 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		16AC2EA21BF5B02E00AA8CDE /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIClient.h; path = ../../CommunityBuyer/CommunityBuyer/APIClient.h; sourceTree = "<group>"; };
+		16AC2EA31BF5B02E00AA8CDE /* CBCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBCUtil.h; path = ../../CommunityBuyer/CommunityBuyer/CBCUtil.h; sourceTree = "<group>"; };
+		16AC2EA41BF5B02E00AA8CDE /* dateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dateModel.h; path = ../../CommunityBuyer/CommunityBuyer/dateModel.h; sourceTree = "<group>"; };
+		16AC2EA51BF5B02E00AA8CDE /* NSObject+myobj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+myobj.h"; path = "../../CommunityBuyer/CommunityBuyer/NSObject+myobj.h"; sourceTree = "<group>"; };
+		16AC2EA61BF5B02E00AA8CDE /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../../CommunityBuyer/CommunityBuyer/Util.h; sourceTree = "<group>"; };
+		16AC2EA81BF5B09200AA8CDE /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		16AC2EA91BF5B09200AA8CDE /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		16AC2EAA1BF5B09200AA8CDE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		16AC2EAB1BF5B09200AA8CDE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		16AC2EAC1BF5B09200AA8CDE /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		16AC2EAD1BF5B09200AA8CDE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		16AC2EAE1BF5B09200AA8CDE /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		16AC2EAF1BF5B09200AA8CDE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		16AC2EB01BF5B09200AA8CDE /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		16AC2EB11BF5B09200AA8CDE /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		16AC2EB21BF5B09200AA8CDE /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		16AC2EB31BF5B09200AA8CDE /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		16AC2EB41BF5B09200AA8CDE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		16AC2EB51BF5B09200AA8CDE /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		16AC2EB61BF5B09200AA8CDE /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		16AC2EB71BF5B09200AA8CDE /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		16AC2EB81BF5B09200AA8CDE /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		16AC2EB91BF5B09200AA8CDE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		16AC2EBA1BF5B09200AA8CDE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		16AC2EBB1BF5B09200AA8CDE /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		16AC2EBC1BF5B09200AA8CDE /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		16AC2EBE1BF5B09200AA8CDE /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		16AC2EBF1BF5B09200AA8CDE /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		16AC2EC01BF5B09200AA8CDE /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		16AC2EC11BF5B09200AA8CDE /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		16AC2EC31BF5B09200AA8CDE /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
+		16AC2EC41BF5B09200AA8CDE /* libPushSDK-1.8.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.5.a"; sourceTree = "<group>"; };
+		16AC2EC61BF5B09200AA8CDE /* libOSS_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOSS_IOS_SDK.a; sourceTree = "<group>"; };
+		16AC2EC71BF5B09200AA8CDE /* OSSArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSArgs.h; sourceTree = "<group>"; };
+		16AC2EC81BF5B09200AA8CDE /* OSSBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBucket.h; sourceTree = "<group>"; };
+		16AC2EC91BF5B09200AA8CDE /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		16AC2ECA1BF5B09200AA8CDE /* OSSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSData.h; sourceTree = "<group>"; };
+		16AC2ECB1BF5B09200AA8CDE /* OSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSFile.h; sourceTree = "<group>"; };
+		16AC2ECC1BF5B09200AA8CDE /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		16AC2ECD1BF5B09200AA8CDE /* OSSMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMeta.h; sourceTree = "<group>"; };
+		16AC2ECE1BF5B09200AA8CDE /* OSSMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMultipart.h; sourceTree = "<group>"; };
+		16AC2ECF1BF5B09200AA8CDE /* OSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSObject.h; sourceTree = "<group>"; };
+		16AC2ED01BF5B09200AA8CDE /* OSSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSRange.h; sourceTree = "<group>"; };
+		16AC2ED11BF5B09200AA8CDE /* OSSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTool.h; sourceTree = "<group>"; };
+		16AC2ED31BF5B09200AA8CDE /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QMapKit.bundle; sourceTree = "<group>"; };
+		16AC2ED41BF5B09200AA8CDE /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapKit.framework; sourceTree = "<group>"; };
+		16AC2ED61BF5B09200AA8CDE /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		16AC2ED71BF5B09200AA8CDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		16AC2ED91BF5B09200AA8CDE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		16AC2EDA1BF5B09200AA8CDE /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		16AC2EDB1BF5B09200AA8CDE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		16AC2EE11BF5B09200AA8CDE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		16AC2EE21BF5B09200AA8CDE /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		16AC2EE31BF5B09200AA8CDE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		16AC2EE41BF5B09200AA8CDE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		16AC2EF91BF5B11100AA8CDE /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMBase64.h; path = ../../CommunityBuyer/CommunityBuyer/OpenSource/Base64/GTMBase64.h; sourceTree = "<group>"; };
+		16AC2EFA1BF5B12400AA8CDE /* CustomDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomDefine.h; path = ../../CommunityBuyer/CommunityBuyer/BaseVC/CustomDefine.h; sourceTree = "<group>"; };
+		16FBE2CA1B2860D0000E23C3 /* libYiZanCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYiZanCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FBE2CD1B2860D0000E23C3 /* YiZanCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YiZanCore.h; sourceTree = "<group>"; };
+		16FBE2CF1B2860D0000E23C3 /* YiZanCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiZanCore.m; sourceTree = "<group>"; };
+		16FBE2D51B2860D0000E23C3 /* YiZanCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiZanCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FBE2DA1B2860D0000E23C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16FBE2C71B2860D0000E23C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AC2EF41BF5B09200AA8CDE /* QMapKit.framework in Frameworks */,
+				16AC2EF01BF5B09200AA8CDE /* libcrypto.a in Frameworks */,
+				16AC2EF81BF5B09200AA8CDE /* libWeChatSDK.a in Frameworks */,
+				16AC2EF21BF5B09200AA8CDE /* libPushSDK-1.8.5.a in Frameworks */,
+				16AC2EEF1BF5B09200AA8CDE /* AlipaySDK.framework in Frameworks */,
+				16AC2EF31BF5B09200AA8CDE /* libOSS_IOS_SDK.a in Frameworks */,
+				16AC2EF11BF5B09200AA8CDE /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FBE2D21B2860D0000E23C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FBE2D61B2860D0000E23C3 /* libYiZanCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16AC2EA71BF5B09200AA8CDE /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2EA81BF5B09200AA8CDE /* AFAppDotNetAPIClient.h */,
+				16AC2EA91BF5B09200AA8CDE /* AFAppDotNetAPIClient.m */,
+				16AC2EAA1BF5B09200AA8CDE /* AFHTTPRequestOperation.h */,
+				16AC2EAB1BF5B09200AA8CDE /* AFHTTPRequestOperation.m */,
+				16AC2EAC1BF5B09200AA8CDE /* AFHTTPRequestOperationManager.h */,
+				16AC2EAD1BF5B09200AA8CDE /* AFHTTPRequestOperationManager.m */,
+				16AC2EAE1BF5B09200AA8CDE /* AFHTTPSessionManager.h */,
+				16AC2EAF1BF5B09200AA8CDE /* AFHTTPSessionManager.m */,
+				16AC2EB01BF5B09200AA8CDE /* AFNetworking.h */,
+				16AC2EB11BF5B09200AA8CDE /* AFNetworkReachabilityManager.h */,
+				16AC2EB21BF5B09200AA8CDE /* AFNetworkReachabilityManager.m */,
+				16AC2EB31BF5B09200AA8CDE /* AFSecurityPolicy.h */,
+				16AC2EB41BF5B09200AA8CDE /* AFSecurityPolicy.m */,
+				16AC2EB51BF5B09200AA8CDE /* AFURLConnectionOperation.h */,
+				16AC2EB61BF5B09200AA8CDE /* AFURLConnectionOperation.m */,
+				16AC2EB71BF5B09200AA8CDE /* AFURLRequestSerialization.h */,
+				16AC2EB81BF5B09200AA8CDE /* AFURLRequestSerialization.m */,
+				16AC2EB91BF5B09200AA8CDE /* AFURLResponseSerialization.h */,
+				16AC2EBA1BF5B09200AA8CDE /* AFURLResponseSerialization.m */,
+				16AC2EBB1BF5B09200AA8CDE /* AFURLSessionManager.h */,
+				16AC2EBC1BF5B09200AA8CDE /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/AFNetworking;
+			sourceTree = "<group>";
+		};
+		16AC2EBD1BF5B09200AA8CDE /* alipay */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2EBE1BF5B09200AA8CDE /* AlipaySDK.bundle */,
+				16AC2EBF1BF5B09200AA8CDE /* AlipaySDK.framework */,
+				16AC2EC01BF5B09200AA8CDE /* libcrypto.a */,
+				16AC2EC11BF5B09200AA8CDE /* libssl.a */,
+			);
+			name = alipay;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/alipay;
+			sourceTree = "<group>";
+		};
+		16AC2EC21BF5B09200AA8CDE /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2EC31BF5B09200AA8CDE /* APService.h */,
+				16AC2EC41BF5B09200AA8CDE /* libPushSDK-1.8.5.a */,
+			);
+			name = JPush;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/JPush;
+			sourceTree = "<group>";
+		};
+		16AC2EC51BF5B09200AA8CDE /* OSS */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2EC61BF5B09200AA8CDE /* libOSS_IOS_SDK.a */,
+				16AC2EC71BF5B09200AA8CDE /* OSSArgs.h */,
+				16AC2EC81BF5B09200AA8CDE /* OSSBucket.h */,
+				16AC2EC91BF5B09200AA8CDE /* OSSClient.h */,
+				16AC2ECA1BF5B09200AA8CDE /* OSSData.h */,
+				16AC2ECB1BF5B09200AA8CDE /* OSSFile.h */,
+				16AC2ECC1BF5B09200AA8CDE /* OSSLog.h */,
+				16AC2ECD1BF5B09200AA8CDE /* OSSMeta.h */,
+				16AC2ECE1BF5B09200AA8CDE /* OSSMultipart.h */,
+				16AC2ECF1BF5B09200AA8CDE /* OSSObject.h */,
+				16AC2ED01BF5B09200AA8CDE /* OSSRange.h */,
+				16AC2ED11BF5B09200AA8CDE /* OSSTool.h */,
+			);
+			name = OSS;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/OSS;
+			sourceTree = "<group>";
+		};
+		16AC2ED21BF5B09200AA8CDE /* QMAP */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2ED31BF5B09200AA8CDE /* QMapKit.bundle */,
+				16AC2ED41BF5B09200AA8CDE /* QMapKit.framework */,
+			);
+			name = QMAP;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/QMAP;
+			sourceTree = "<group>";
+		};
+		16AC2ED51BF5B09200AA8CDE /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2ED61BF5B09200AA8CDE /* LICENSE.txt */,
+				16AC2ED71BF5B09200AA8CDE /* README.md */,
+				16AC2ED81BF5B09200AA8CDE /* SVProgressHUD */,
+			);
+			name = SVProgressHUD;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		16AC2ED81BF5B09200AA8CDE /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2ED91BF5B09200AA8CDE /* SVProgressHUD.bundle */,
+				16AC2EDA1BF5B09200AA8CDE /* SVProgressHUD.h */,
+				16AC2EDB1BF5B09200AA8CDE /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		16AC2EE01BF5B09200AA8CDE /* WeChatSDK_1.5 */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2EE11BF5B09200AA8CDE /* libWeChatSDK.a */,
+				16AC2EE21BF5B09200AA8CDE /* read_me.txt */,
+				16AC2EE31BF5B09200AA8CDE /* WXApi.h */,
+				16AC2EE41BF5B09200AA8CDE /* WXApiObject.h */,
+			);
+			name = WeChatSDK_1.5;
+			path = ../../CommunityBuyer/CommunityBuyer/OpenSource/WeChatSDK_1.5;
+			sourceTree = "<group>";
+		};
+		16AF45B41B296F9900DE935E /* Depend */ = {
+			isa = PBXGroup;
+			children = (
+				16AC2EA71BF5B09200AA8CDE /* AFNetworking */,
+				16AC2EBD1BF5B09200AA8CDE /* alipay */,
+				16AC2EC21BF5B09200AA8CDE /* JPush */,
+				16AC2EC51BF5B09200AA8CDE /* OSS */,
+				16AC2ED21BF5B09200AA8CDE /* QMAP */,
+				16AC2ED51BF5B09200AA8CDE /* SVProgressHUD */,
+				16AC2EE01BF5B09200AA8CDE /* WeChatSDK_1.5 */,
+			);
+			name = Depend;
+			sourceTree = "<group>";
+		};
+		16FBE2C11B2860D0000E23C3 = {
+			isa = PBXGroup;
+			children = (
+				16FBE2CC1B2860D0000E23C3 /* YiZanCore */,
+				16FBE2D91B2860D0000E23C3 /* YiZanCoreTests */,
+				16FBE2CB1B2860D0000E23C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16FBE2CB1B2860D0000E23C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16FBE2CA1B2860D0000E23C3 /* libYiZanCore.a */,
+				16FBE2D51B2860D0000E23C3 /* YiZanCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16FBE2CC1B2860D0000E23C3 /* YiZanCore */ = {
+			isa = PBXGroup;
+			children = (
+				16AF45B41B296F9900DE935E /* Depend */,
+				16AC2EA21BF5B02E00AA8CDE /* APIClient.h */,
+				16AC2EA31BF5B02E00AA8CDE /* CBCUtil.h */,
+				16AC2EA41BF5B02E00AA8CDE /* dateModel.h */,
+				16AC2EA51BF5B02E00AA8CDE /* NSObject+myobj.h */,
+				16AC2EA61BF5B02E00AA8CDE /* Util.h */,
+				16AC2EFA1BF5B12400AA8CDE /* CustomDefine.h */,
+				168701EB1B29648E00A46766 /* APIClient.m */,
+				168701EC1B29648E00A46766 /* CBCUtil.m */,
+				168701ED1B29648E00A46766 /* dateModel.m */,
+				168701EE1B29648E00A46766 /* NSObject+myobj.m */,
+				168701EF1B29648E00A46766 /* Util.m */,
+				16FBE2CD1B2860D0000E23C3 /* YiZanCore.h */,
+				16FBE2CF1B2860D0000E23C3 /* YiZanCore.m */,
+				16AC2EF91BF5B11100AA8CDE /* GTMBase64.h */,
+			);
+			path = YiZanCore;
+			sourceTree = "<group>";
+		};
+		16FBE2D91B2860D0000E23C3 /* YiZanCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				16FBE2DA1B2860D0000E23C3 /* Info.plist */,
+			);
+			path = YiZanCoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16FBE2C91B2860D0000E23C3 /* YiZanCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FBE2DD1B2860D0000E23C3 /* Build configuration list for PBXNativeTarget "YiZanCore" */;
+			buildPhases = (
+				16FBE2C61B2860D0000E23C3 /* Sources */,
+				16FBE2C71B2860D0000E23C3 /* Frameworks */,
+				16FBE2C81B2860D0000E23C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiZanCore;
+			productName = YiZanCore;
+			productReference = 16FBE2CA1B2860D0000E23C3 /* libYiZanCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		16FBE2D41B2860D0000E23C3 /* YiZanCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16FBE2E01B2860D0000E23C3 /* Build configuration list for PBXNativeTarget "YiZanCoreTests" */;
+			buildPhases = (
+				16FBE2D11B2860D0000E23C3 /* Sources */,
+				16FBE2D21B2860D0000E23C3 /* Frameworks */,
+				16FBE2D31B2860D0000E23C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16FBE2D81B2860D0000E23C3 /* PBXTargetDependency */,
+			);
+			name = YiZanCoreTests;
+			productName = YiZanCoreTests;
+			productReference = 16FBE2D51B2860D0000E23C3 /* YiZanCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16FBE2C21B2860D0000E23C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = zzl;
+				TargetAttributes = {
+					16FBE2C91B2860D0000E23C3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					16FBE2D41B2860D0000E23C3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 16FBE2C51B2860D0000E23C3 /* Build configuration list for PBXProject "YiZanCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16FBE2C11B2860D0000E23C3;
+			productRefGroup = 16FBE2CB1B2860D0000E23C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16FBE2C91B2860D0000E23C3 /* YiZanCore */,
+				16FBE2D41B2860D0000E23C3 /* YiZanCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16FBE2D31B2860D0000E23C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16FBE2C61B2860D0000E23C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AC2EEB1BF5B09200AA8CDE /* AFURLConnectionOperation.m in Sources */,
+				168701F11B29648E00A46766 /* CBCUtil.m in Sources */,
+				168701F21B29648E00A46766 /* dateModel.m in Sources */,
+				16FBE2D01B2860D0000E23C3 /* YiZanCore.m in Sources */,
+				16AC2EED1BF5B09200AA8CDE /* AFURLResponseSerialization.m in Sources */,
+				16AC2EF61BF5B09200AA8CDE /* SVProgressHUD.m in Sources */,
+				168701F01B29648E00A46766 /* APIClient.m in Sources */,
+				16AC2EEC1BF5B09200AA8CDE /* AFURLRequestSerialization.m in Sources */,
+				16AC2EEA1BF5B09200AA8CDE /* AFSecurityPolicy.m in Sources */,
+				16AC2EE61BF5B09200AA8CDE /* AFHTTPRequestOperation.m in Sources */,
+				16AC2EEE1BF5B09200AA8CDE /* AFURLSessionManager.m in Sources */,
+				168701F31B29648E00A46766 /* NSObject+myobj.m in Sources */,
+				16AC2EF51BF5B09200AA8CDE /* README.md in Sources */,
+				168701F41B29648E00A46766 /* Util.m in Sources */,
+				16AC2EE81BF5B09200AA8CDE /* AFHTTPSessionManager.m in Sources */,
+				16AC2EE51BF5B09200AA8CDE /* AFAppDotNetAPIClient.m in Sources */,
+				16AC2EE91BF5B09200AA8CDE /* AFNetworkReachabilityManager.m in Sources */,
+				16AC2EE71BF5B09200AA8CDE /* AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16FBE2D11B2860D0000E23C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16FBE2D81B2860D0000E23C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16FBE2C91B2860D0000E23C3 /* YiZanCore */;
+			targetProxy = 16FBE2D71B2860D0000E23C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16FBE2DB1B2860D0000E23C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16FBE2DC1B2860D0000E23C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16FBE2DE1B2860D0000E23C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/alipay",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/QMAP",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/UMAnalytics_Sdk_3.4.3",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/OSS",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/alipay",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/WeChatSDK_1.5",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/JPush",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		16FBE2DF1B2860D0000E23C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/alipay",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/QMAP",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/UMAnalytics_Sdk_3.4.3",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/OSS",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/alipay",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/WeChatSDK_1.5",
+					"$(PROJECT_DIR)/../CommunityBuyer/CommunityBuyer/OpenSource/JPush",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		16FBE2E11B2860D0000E23C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YiZanCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzl.YiZanCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16FBE2E21B2860D0000E23C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YiZanCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zzl.YiZanCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16FBE2C51B2860D0000E23C3 /* Build configuration list for PBXProject "YiZanCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FBE2DB1B2860D0000E23C3 /* Debug */,
+				16FBE2DC1B2860D0000E23C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FBE2DD1B2860D0000E23C3 /* Build configuration list for PBXNativeTarget "YiZanCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FBE2DE1B2860D0000E23C3 /* Debug */,
+				16FBE2DF1B2860D0000E23C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16FBE2E01B2860D0000E23C3 /* Build configuration list for PBXNativeTarget "YiZanCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16FBE2E11B2860D0000E23C3 /* Debug */,
+				16FBE2E21B2860D0000E23C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16FBE2C21B2860D0000E23C3 /* Project object */;
+}
