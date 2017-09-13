@@ -450,11 +450,15 @@
         selectorAry[index] = @selector(deleteAction);
         index++;
     }
+    if([_mTagOrder.misCanRefundStatusNew intValue]==2 ||[_mTagOrder.misCanRefundStatusNew intValue]==3){
+        
+    }else{
     if (_mTagOrder.mIsCanRate) {//评价
         
         [statuAry addObject:@"评价"];
         selectorAry[index] = @selector(PingjiaAction);
         index++;
+    }
     }
     if (_mTagOrder.mIsCanCancel) {//取消订单
         
@@ -486,7 +490,7 @@
         index++;
         
     }
-    if(((_mTagOrder.mIsCanDelete || _mTagOrder.mIsCanRate) && statuAry.count<2) || statuAry.count == 0||([_mTagOrder.misCanRefundStatusNew intValue]==5)){
+    if(((_mTagOrder.mIsCanDelete || _mTagOrder.mIsCanRate) && statuAry.count<2) || statuAry.count == 0||([_mTagOrder.misCanRefundStatusNew intValue]==5)||([_mTagOrder.misCanRefundStatusNew intValue]==3)){
     
         [statuAry addObject:@"去逛逛"];
         selectorAry[index] = @selector(GoAction);
