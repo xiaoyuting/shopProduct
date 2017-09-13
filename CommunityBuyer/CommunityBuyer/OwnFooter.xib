@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fyw-CT-Q8h" customClass="OwnFooter">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v87-io-ry5">
+                    <rect key="frame" x="109" y="5" width="158" height="20"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmT-O9-ls4">
+                            <rect key="frame" x="0.0" y="2" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="XSc-hw-vzy"/>
+                                <constraint firstAttribute="width" constant="15" id="rEL-AL-AGj"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="phone"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服：400-011-777" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZA-OM-Njg">
+                            <rect key="frame" x="23" y="0.0" width="127" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.96470588239999999" green="0.054901960780000002" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="qmT-O9-ls4" firstAttribute="top" secondItem="v87-io-ry5" secondAttribute="top" constant="2" id="65j-jL-dQA"/>
+                        <constraint firstItem="IZA-OM-Njg" firstAttribute="top" secondItem="v87-io-ry5" secondAttribute="top" id="67f-Hl-hjv"/>
+                        <constraint firstItem="IZA-OM-Njg" firstAttribute="baseline" secondItem="qmT-O9-ls4" secondAttribute="baseline" id="Akv-pt-kZI"/>
+                        <constraint firstItem="IZA-OM-Njg" firstAttribute="leading" secondItem="qmT-O9-ls4" secondAttribute="trailing" constant="8" id="HHC-s7-oIb"/>
+                        <constraint firstItem="qmT-O9-ls4" firstAttribute="leading" secondItem="v87-io-ry5" secondAttribute="leading" id="YGz-Le-7cF"/>
+                        <constraint firstAttribute="trailing" secondItem="IZA-OM-Njg" secondAttribute="trailing" constant="8" id="lhh-pI-Ots"/>
+                        <constraint firstAttribute="bottom" secondItem="qmT-O9-ls4" secondAttribute="bottom" constant="3" id="mkU-Vh-2gA"/>
+                        <constraint firstAttribute="bottom" secondItem="IZA-OM-Njg" secondAttribute="bottom" constant="-1" id="wm1-yD-Jtc"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="服务时间：09:00-20:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Laa-Tg-nCQ">
+                    <rect key="frame" x="121" y="23" width="134" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59215686270000001" green="0.59215686270000001" blue="0.59215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.88627450980392153" green="0.87450980392156863" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="v87-io-ry5" firstAttribute="top" secondItem="fyw-CT-Q8h" secondAttribute="top" constant="5" id="9r9-3V-pR7"/>
+                <constraint firstItem="v87-io-ry5" firstAttribute="centerX" secondItem="fyw-CT-Q8h" secondAttribute="centerX" id="ICx-yv-59H"/>
+                <constraint firstAttribute="bottom" secondItem="Laa-Tg-nCQ" secondAttribute="bottom" constant="4" id="bKJ-eL-3uN"/>
+                <constraint firstItem="Laa-Tg-nCQ" firstAttribute="centerX" secondItem="fyw-CT-Q8h" secondAttribute="centerX" id="jL2-ts-epD"/>
+                <constraint firstItem="Laa-Tg-nCQ" firstAttribute="top" secondItem="v87-io-ry5" secondAttribute="bottom" constant="-2" id="riA-ly-oiU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mPhone" destination="IZA-OM-Njg" id="oPi-U3-8uR"/>
+                <outlet property="mTime" destination="Laa-Tg-nCQ" id="Pv2-MA-pMe"/>
+            </connections>
+            <point key="canvasLocation" x="371.5" y="418.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="phone" width="30" height="30"/>
+    </resources>
+</document>
